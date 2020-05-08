@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+Above baseof template
+<hr>
+    {{ block "main" . }}
+
+    {{end}} 
+    <br>
+    {{ block "footer" . }}
+    This default template of footer block
+    {{end}}
+    <hr>
+Below baseof template
+</body>
+</html>
